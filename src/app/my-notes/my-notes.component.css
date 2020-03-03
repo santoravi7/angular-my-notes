@@ -1,0 +1,8 @@
+.notes-div{
+    margin-top: 20px;
+    background: #efefef;
+    min-height: 270px;    
+    padding: 10px;
+    text-align: center;
+    font-size: 12px !important;
+}

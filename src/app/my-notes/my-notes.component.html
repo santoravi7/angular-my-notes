@@ -1,0 +1,12 @@
+
+<div class="container">
+    <div *ngFor="let note of notes; index as noteId">
+      <a [title]="note.name+' details'" [routerLink]="['notes',noteId]" >
+      <div class="col-md-3 col-xs-4 col-sm-3 col-lg-6">
+        <div class="notes-div">
+          <h4>{{note.name}} - {{noteId+1}}</h4>
+        </div>
+      </div>
+      </a>
+    </div>
+</div>
