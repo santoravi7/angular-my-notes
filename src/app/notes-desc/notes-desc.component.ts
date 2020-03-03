@@ -15,7 +15,7 @@ export class NotesDescComponent implements OnInit {
 
   ngOnInit() {
     this.route.paramMap.subscribe(params=>{
-      this.note = notes[+params.get('nameId')];
+      this.note = notes[+params.get('noteId')];
     })
   }
 
