@@ -4,7 +4,7 @@
           <div *ngIf="note" >
             <div class="note-heading">{{note.name}}</div>
             <div class="desc">
-               <textarea [(ngModel)]='note.description  | ellipsis:50'></textarea>
+               <textarea [(ngModel)]='note.description'></textarea>
             </div>
           </div>
         </div>

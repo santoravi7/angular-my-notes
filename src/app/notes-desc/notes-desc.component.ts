@@ -8,11 +8,6 @@ import { Pipe } from '@angular/core';
   styleUrls: ['./notes-desc.component.css']
 })
 
-@Pipe({
-    name: 'ellipsis'
-  })
-
-
 export class NotesDescComponent implements OnInit {
   note;
   
