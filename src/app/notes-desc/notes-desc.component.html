@@ -3,7 +3,9 @@
         <div class="col-xs-12">
           <div *ngIf="note">
             <div class="note-heading">{{note.name}}</div>
-            <div class="desc">{{note.description}}</div>
+            <div class="desc">
+               <textarea [(ngModel)]='note.description'></textarea>
+            </div>
           </div>
         </div>
       </div>
